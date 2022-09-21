@@ -1,0 +1,109 @@
+#PROGRAMS UNDER OPERATORS
+
+#1.Sum and Difference
+a=int(input())
+b=int(input())
+print(a+b)
+print(a-b)
+
+
+#2.Multiplication, Division and Modulo operators
+a = int(input())
+b = int(input())
+print(a*b)
+print(a//b)
+print(a%b)
+
+
+#3.Swapping of Numbers using a third variable
+a = int(input())
+b = int(input())
+c=a
+a=b
+b=c
+print(a)
+print(b)
+
+#4.Swapping of two numbers without using a third variable
+#using XOR Gate ( ^ -operator)
+a = int(input())
+b = int(input())
+a = a^b
+b = a^b
+a = a^b
+print(a)
+print(b)
+
+# #using arithmetic operators
+# a=int(input())
+# b=int(input())
+# a=a+b
+# b=a-b
+# a=a-b
+# print(a)
+# print(b)
+
+# #Using Swapping Technique
+# a=int(input())
+# b=int(input())
+# (b,a)=(a,b)
+# print(a)
+# print(b)
+
+#5.Average Calculation
+a = float(input())
+b = float(input())
+c = float(input())
+d = float(input())
+e = float(input())
+print((a+b+c+d+e)/5)
+
+#6.Sum of digits in a two digit number
+a = int(input())
+print(a//10 + a%10)
+
+#7.Areas of Square, Rectangle and Circle using Operators
+a = int(input())
+l = int(input())
+b = int(input())
+r = float(input())
+print(a**2)
+print(l*b)
+print('%.2f'%(3.14*r*r))
+
+#8.Perimeter and Area of a Rectangle
+l = int(input())
+b = int(input())
+print("Required length is",2*(l+b),"m")
+print("Required quantity of carpet is",l*b,"sqm")
+
+
+#9.Nth Power of a Base Number
+#1st Method
+a=int(input())
+b=int(input())
+print(a**b)
+
+# #2nd Method
+# a=int(input())
+# b=int(input())
+# print(pow(a,b))
+
+#10.Simple Interest
+p = int(input())
+t = int(input())
+r = float(input())
+print((p*t*r)/100)
+
+
+#11.Application of Floor division and Modulo operator
+a = int(input())
+b = int(input())
+print("The number of students in each team is",a//b,"and left out is",a%b)
+
+
+#12.Locating the mid-point of two points
+(x1,y1) = (int(input()),int(input()))
+(x2,y2) = (int(input()),int(input()))
+print("Binoy's house is located at",((x1+x2)/2,(y1+y2)/2))
+
